@@ -1,0 +1,52 @@
+.header{
+     
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            height: 150px;
+     h1{
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        padding: 50px;
+        padding-top: 20px;
+        padding-right: 1000px;
+        font-family: Arial, Helvetica, sans-serif
+     }
+    
+    p{
+        text-align: center;
+        margin-top: -60px;
+        color:white;
+        padding-right: 1070px;
+        font-family: Arial, Helvetica, sans-serif
+       }
+    }
+
+    .nav{
+      margin-top: 10px;
+      text-align: center;
+      padding-right: 1070px;
+
+      a{
+        color: white;
+        margin: 0 5px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 1;
+        font-size: 15px;
+        
+      
+      }     
+    }
+
+    .details{
+       margin: 0 200px;
+       display: grid;
+       grid-template-columns: auto;               
+    }
+    .underline{
+       text-decoration: underline;
+
+      
+    }

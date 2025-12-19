@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+</head>
+<body>
+        <div class="header"> 
+            <h1>🎓 Student Management System</h1>
+            <p>Manage student registrations and records efficiently</p>
+            <div class="nav">
+               <a href="dashboard">Dashboard</a>
+               <a href="students">Students</a>
+               <a href="courses">Courses</a>
+               <a href="reports">Reports</a>
+               <a href="settings">Settings</a>
+            </div>
+        </div>
+
+        <div class="details">
+       
+           <h2 class="underline">Add New Student</h2>
+
+            <form action="Details">
+               <label for ="Student ID" >Student ID *</label>
+               <br>
+               <input type ="text"  placeholder="e.g.,STU2024001">
+               <br>
+               <label for ="full name">Full Name *</label>
+               <br>
+               <input type="text" placeholder="Enter full name">
+               <br>
+               <label for="Email Address">Email Address *</label>
+               <br> 
+               <input type="text" placeholder="student@gmail.com">
+               <br>
+               <label for="phone number">Phone Number*</label>
+               <br>
+               <input type="text" placeholder="+91 1234567891">
+               <br>
+               <label for="date of birth">Date of Birth *</label>
+               <br>
+               <input type="date" placeholder="DD/MM/YY">
+               <br>
+               <label for="gender">Gender *</label>
+               <br>
+               <input type="radio" name="Male"> Male
+               <input type="radio" name="female"> Female
+               <input type="radio" name="other"> other
+               <br>
+               <label for="select course"> Select Course *</label>
+               <br>
+               <input type="text"  placeholder="..Choose a Course..">
+               <br>
+               <label for="academic year"> Academic Year *</label>
+               <br>
+               <input type="value"  placeholder="e.g.,2020-2024">
+               <br>
+               <label for="additional service">Additional Service</label>
+               <br>
+               <input type="checkbox"> Hostel
+               <input type="checkbox"> Transport
+              <input type="checkbox"> Library
+              <br>
+              <button type="register student">Register Student</button>
+              <button type="clear form">Clear Form</button>
+            </form>
+        
+       </div>
+
+
+       <div class="card">
+            <h2 class="Underline">Registered Students</h2>
+            <div class="search-bar">
+            <input type="text" placeholder="Search students...">
+            <div class="total-count">Total:15 Students</div>
+            </div>
+
+             <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Year</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                 <tr>
+                    <td>STU20204001</td>
+                    <td>John Smith</td>
+                    <td>computer Science</td>
+                    <td>3</td>
+                    <td>johnsmith@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <div class="Actions">
+                          <button>Edit</button>
+                          <button>Delete</button>
+                        </div>
+                    </td>           
+                 </tr>
+
+                 <tr>
+                    <td>STU20204002</td>
+                    <td>Emily Johnson</td>
+                    <td>Business Admin</td>
+                    <td>2</td>
+                    <td>emily@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <div class="Actions">
+                          <button>Edit</button>
+                          <button>Delete</button>
+                        </div>
+                    </td>           
+                 </tr>
+                  <tr>
+                    <td>STU20204003</td>
+                    <td>Michael Brown</td>
+                    <td>Medicine</td>
+                    <td>5</td>
+                    <td>michael@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <div class="Actions">
+                          <button>Edit</button>
+                          <button>Delete</button>
+                        </div>
+                    </td>           
+                 </tr>
+                  <tr>
+                    <td>STU20204004</td>
+                    <td>Sarah Davis</td>
+                    <td>Engineering</td>
+                    <td>4</td>
+                    <td>davissarah@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <div class="Actions">
+                          <button>Edit</button>
+                          <button>Delete</button>
+                        </div>
+                    </td>           
+                 </tr>
+
+                </tbody>
+                
+                
+             </table>
+
+
+       </div>
